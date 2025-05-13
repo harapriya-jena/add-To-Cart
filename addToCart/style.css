@@ -1,0 +1,174 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: hsla(351, 100%, 71%, 1);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  
+}
+.sd-price{
+font-weight: 400;
+font-size: 15px;
+margin-left: 30px;
+
+
+}
+.offer {
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  background: #fff;
+}
+
+.offer:hover {
+  border-color: #ff007f;
+  background-color: #fff0f5;
+}
+
+.offer.active {
+  border-color: #ff007f;
+  background-color: #fff0f5;
+}
+
+.badge {
+  background: hsla(351, 100%, 71%, 1);
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  margin-left: 10px;
+  
+}
+
+.most-popular {
+  position: absolute;
+  top: -12px;
+  right: 12px;
+  background: hsla(351, 100%, 71%, 1);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 2px;
+  font-size: 12px;
+
+}
+
+.price {
+  float: right;
+  text-align: right;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.price .old {
+  text-decoration: line-through;
+  color: #aaa;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+  font-size: 14px;
+ 
+}
+
+.row {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 10px;
+   margin-bottom: 10px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.group span {
+  font-size: 14px;
+  
+}
+
+select {
+  padding: 4px 9px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.free {
+  font-size: 18px;
+  color: hsla(351, 100%, 71%, 1);
+}
+
+.footer {
+  font-size: 18px;
+  color: #333;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  background: hsla(351, 100%, 71%, 1);
+  color: white;
+  padding: 14px;
+  border: none;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  accent-color: rgb(224, 94, 111);
+}

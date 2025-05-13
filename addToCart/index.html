@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h2>YAY! It's BOGO</h2>
+            <div class="offer" onclick="selectOffer(1)">
+          <input type="radio" name="offer" />
+          <strong>1 Unit</strong> <span class="badge">10% Off</span>
+          <div class="price">
+            $10.00 USD
+            <span class="old">$24.00 USD</span>
+          </div>
+          <div class="sd-price">
+            <p>Standard Price</p>
+          </div>
+
+        </div>
+    
+        <div class="offer active" onclick="selectOffer(2)">
+          <input type="radio" name="offer" checked />
+          <strong>2 Unit</strong> <span class="badge">20% Off</span>
+          <div class="most-popular">MOST POPULAR</div>
+          <div class="price">
+            $18.00 USD
+            <span class="old">$24.00 USD</span>
+          </div>
+         <div class="details">
+  <div class="header-row">
+    <span></span>
+    <span>Size</span>
+    <span>Colour</span>
+  </div>
+  <div class="row">
+    <span>#1</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Red</option>
+    </select>
+  </div>
+  <div class="row">
+    <span>#2</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Red</option>
+    </select>
+  </div>
+</div>
+
+        </div>
+    
+        <div class="offer" onclick="selectOffer(3)">
+          <input type="radio" name="offer" />
+          <strong>3 Unit</strong> <span class="badge">30% Off</span>
+          <div class="price">
+            $24.00 USD
+            <span class="old">$24.60 USD</span>
+          </div>
+          <div class="details">
+  <div class="header-row">
+    <span></span>
+    <span>Size</span>
+    <span>Colour</span>
+  </div>
+  <div class="row">
+    <span>#1</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Red</option>
+    </select>
+  </div>
+  <div class="row">
+    <span>#2</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Red</option>
+    </select>
+  </div>
+</div>
+
+        </div>
+        <div class="summary">
+          <div class="free">Free Delivery</div>
+          <div class="footer">Total: $18.00 USD</div>
+        </div>
+    
+        <button class="btn">+ Add to Cart</button>
+     </div>
+        <script src="script.js"></script>
+       
+      </body>
+    </html>
+    
